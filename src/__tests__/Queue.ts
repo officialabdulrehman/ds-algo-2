@@ -6,6 +6,7 @@ test("queue", function () {
   list.enqueue(5);
   list.enqueue(7);
   list.enqueue(9);
+
   expect(list.deque()).toEqual(5);
   expect(list.length).toEqual(2);
 
@@ -24,9 +25,7 @@ test("queue", function () {
 
   // just wanted to make sure that I could not blow up myself when i remove
   // everything
-  console.log("LIST BEFORE 69 => ", list)
   list.enqueue(69);
-  console.log("LIST AFTER 69 => ", list)
   expect(list.peek()).toEqual(69);
   expect(list.length).toEqual(1);
 });
