@@ -1,4 +1,4 @@
-## Developed live on twitch
+## Boilerplate template from Primeagen/kata-machine
 [ThePrimeagen](https://twitch.tv/ThePrimeagen)
 
 ## Naming
